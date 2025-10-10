@@ -2,9 +2,93 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 6a10ea30-147f-4e88-a5c3-bf0fd41178aa)
+	(uuid "6a10ea30-147f-4e88-a5c3-bf0fd41178aa")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 60.96 31.75)
+		(size 48.26 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90f8a919-9308-4e2d-9785-824a1b667211")
+		(property "Sheetname" "Power Supply"
+			(at 60.96 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 60.96 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 31.75)
+		(size 50.8 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ffa4e09-e84e-481d-9a76-0a18653cd84d")
+		(property "Sheetname" "Control System"
+			(at 151.13 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control_system.kicad_sch"
+			(at 151.13 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
