@@ -2125,6 +2125,263 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Thermistor_NTC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor_NTC"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_NTC_0_1"
+				(arc
+					(start -3.175 2.413)
+					(mid -3.0506 2.3165)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 2.794)
+					(mid -2.434 2.5608)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MBRS130T3G:MBRS130T3G"
 			(pin_names
 				(hide yes)
@@ -2948,6 +3205,12 @@
 		(uuid "edac1829-c9c3-42c6-8365-790095619c95")
 	)
 	(junction
+		(at 130.81 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5b6907e-27b4-4e73-806a-e7a8f7e4a801")
+	)
+	(junction
 		(at 74.93 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3032,6 +3295,16 @@
 			(type default)
 		)
 		(uuid "11b7fb6e-188b-4e24-838e-816376d24a9f")
+	)
+	(wire
+		(pts
+			(xy 139.7 46.99) (xy 134.62 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123701d9-9155-42e5-98ad-42bf0a75fc96")
 	)
 	(wire
 		(pts
@@ -3245,6 +3518,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 39.37) (xy 130.81 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a4d6f2-0e5c-4044-94d1-e185bda06229")
+	)
+	(wire
+		(pts
 			(xy 123.19 26.67) (xy 127 26.67)
 		)
 		(stroke
@@ -3292,6 +3575,16 @@
 			(type default)
 		)
 		(uuid "4b2fc35d-220c-4f51-bd71-3874ba55d2c3")
+	)
+	(wire
+		(pts
+			(xy 138.43 41.91) (xy 139.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1d0f9d-635f-4a3e-a2ab-ec721fb5b899")
 	)
 	(wire
 		(pts
@@ -3495,6 +3788,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 41.91) (xy 139.7 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a58c77-9444-42c4-95d8-902aee8db6d4")
+	)
+	(wire
+		(pts
 			(xy 82.55 54.61) (xy 82.55 55.88)
 		)
 		(stroke
@@ -3652,6 +3955,16 @@
 			(type default)
 		)
 		(uuid "961c7efe-c98c-46cf-9bdb-b424437e76a1")
+	)
+	(wire
+		(pts
+			(xy 123.19 41.91) (xy 130.81 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976ee62e-0538-42aa-8620-c7dfbd7db00a")
 	)
 	(wire
 		(pts
@@ -4222,6 +4535,16 @@
 			(justify left bottom)
 		)
 		(uuid "9f644406-38e6-4f3d-a87a-73f54363ff2a")
+	)
+	(label "LD"
+		(at 123.19 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2d04896-14ed-4180-b2fb-cd9be517fb20")
 	)
 	(label "SW"
 		(at 226.06 55.88 0)
@@ -5867,6 +6190,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 134.62 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51480c3e-353c-4b05-9f92-d799f69f7d72")
+		(property "Reference" "TH2"
+			(at 134.9375 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 134.9375 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "698fa457-793f-427f-a96a-6ee1d3db4232")
+		)
+		(pin "2"
+			(uuid "35998c41-9348-4269-8e35-c450eef673ac")
+		)
+		(instances
+			(project ""
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/90f8a919-9308-4e2d-9785-824a1b667211"
+					(reference "TH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 208.28 102.87 0)
 		(unit 1)
@@ -6744,6 +7135,73 @@
 			(project "Strain Wave Motor Control Board"
 				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/90f8a919-9308-4e2d-9785-824a1b667211"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a8e03ae-dfae-477a-b4ed-b03b9f54c03e")
+		(property "Reference" "R25"
+			(at 127 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 127 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd5535e0-3858-4281-ae6c-689a176345af")
+		)
+		(pin "2"
+			(uuid "4809be48-66a2-420d-baf9-f3e8c019444d")
+		)
+		(instances
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/90f8a919-9308-4e2d-9785-824a1b667211"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8480,7 +8938,7 @@
 		(dnp no)
 		(uuid "e48c08b7-9e1b-492d-9044-49b9300a6a36")
 		(property "Reference" "R24"
-			(at 127 40.386 90)
+			(at 131.318 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,7 +8946,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 127 42.164 90)
+			(at 127 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
