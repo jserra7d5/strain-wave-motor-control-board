@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBRS130T3G
+D Rectangular Package for Automated Handling; Case: Epoxy, Molded; Guardring for Stress Protection Mechanical Characteristics:; Shipped in 12 mm Tape and Reel, 2500 units per reel; Highly Stable Oxide Passivated Junction; Lead and Mounting Surface Temperature for Soldering Purposes: 260C Max. for 10 Seconds; Excellent Ability to Withstand Reverse Avalanche Energy Transients; Very Low Forward Voltage Drop (0.6 Volts Max @ 1.0 A, TJ = 25C); Weight: 95 mg (approximately); Marking: B13; Small Compact Surface Mou
+K
+F https://www.onsemi.com/pub/Collateral/MBRS130T3-D.PDF
+$ENDCMP
+#
+#End Doc Library
