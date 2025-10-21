@@ -6,4 +6,7 @@
   (lib (name "SI4178DY-T1-GE3")(type "KiCad")(uri "${KIPRJMOD}/SI4178DY-T1-GE3/KiCADv6/2025-10-17_03-04-15.kicad_sym")(options "")(descr ""))
   (lib (name "MBRS130T3G")(type "KiCad")(uri "${KIPRJMOD}/LIB_MBRS130T3G/MBRS130T3G/KiCad/MBRS130T3G.kicad_sym")(options "")(descr ""))
   (lib (name "2025-10-17_04-46-05")(type "KiCad")(uri "${KIPRJMOD}/BQ77915/ul_BQ7791500PWR/KiCADv6/2025-10-17_04-46-05.kicad_sym")(options "")(descr ""))
+  (lib (name "STUSB4500")(type "KiCad")(uri "${KIPRJMOD}/STUSB4500/KiCADv6/2025-10-21_04-10-28.kicad_sym")(options "")(descr ""))
+  (lib (name "GSB1C41110SSHR")(type "KiCad")(uri "${KIPRJMOD}/GSB1C41110SSHR/GSB1C41110SSHR/GSB1C41110SSHR.kicad_sym")(options "")(descr ""))
+  (lib (name "S4B-XH-SM4-TB")(type "KiCad")(uri "${KIPRJMOD}/JST-XH-4P/S4B_XH_SM4_TB/S4B-XH-SM4-TB.kicad_sym")(options "")(descr ""))
 )
