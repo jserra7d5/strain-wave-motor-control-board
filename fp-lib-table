@@ -8,4 +8,5 @@
   (lib (name "GSB1C41110SSHR")(type "KiCad")(uri "${KIPRJMOD}/GSB1C41110SSHR/GSB1C41110SSHR")(options "")(descr ""))
   (lib (name "S4B_XH_SM4_TB")(type "KiCad")(uri "${KIPRJMOD}/JST-XH-4P/S4B_XH_SM4_TB")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/DMC2700UDM_7/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ESP32-C6")(type "KiCad")(uri "${KIPRJMOD}/ESP32-C6.pretty")(options "")(descr ""))
 )

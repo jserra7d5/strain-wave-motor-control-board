@@ -1,4 +1,11 @@
-26227754441823776
+26248885321155687
+AO4407A
+SOIC127P600X175-8N
+
+
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,27 @@ audio belton reverb
 0
 7
 7
+BQ7791500PWR
+PW24_TEX
+
+BQ7791500PWR 
+0
+24
+24
+BQ7791500PWR
+PW24_TEX-L
+
+BQ7791500PWR 
+0
+24
+24
+BQ7791500PWR
+PW24_TEX-M
+
+BQ7791500PWR 
+0
+24
+24
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -59625,6 +59653,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32-C6
+E
+
+
+0
+32
+32
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -60703,6 +60738,13 @@ GDT 3R-6
 0
 3
 3
+GSB1C41110SSHR
+AMPHENOL_GSB1C41110SSHR
+
+
+0
+16
+16
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -68827,6 +68869,13 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+MBRS130T3G
+DIOM5436X247N
+SMB CASE 403A-03 ISSUE J
+Diode
 0
 2
 2
@@ -95297,6 +95346,34 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+S4B_XH_SM4_TB
+JST_S4B-XH-SM4-TB
+
+
+0
+6
+6
+SI4178DY-T1-GE3
+SOIC_Y-T1-GE3_VIS
+
+SI4178DY-T1-GE3 
+0
+8
+8
+SI4178DY-T1-GE3
+SOIC_Y-T1-GE3_VIS-L
+
+SI4178DY-T1-GE3 
+0
+8
+8
+SI4178DY-T1-GE3
+SOIC_Y-T1-GE3_VIS-M
+
+SI4178DY-T1-GE3 
+0
+8
+8
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -104229,3 +104306,10 @@ Varistor VF
 0
 2
 2
+footprints
+SOT26_DIO
+
+DMC2700UDM-7 
+0
+6
+6

@@ -617,22 +617,6 @@
     [
       "90f8a919-9308-4e2d-9785-824a1b667211",
       "Power Supply"
-    ],
-    [
-      "9ffa4e09-e84e-481d-9a76-0a18653cd84d",
-      "Control System"
-    ],
-    [
-      "a5c11c67-e660-4528-9e0f-9df2c70ff8bf",
-      "H-Bridge-CH1"
-    ],
-    [
-      "76059e24-e728-4c37-932a-dd1ae6115109",
-      "H-Bridge-CH2"
-    ],
-    [
-      "3d3e4547-2dd5-4110-83ac-2941c786b78a",
-      "H-Bridge-CH3"
     ]
   ],
   "text_variables": {}
