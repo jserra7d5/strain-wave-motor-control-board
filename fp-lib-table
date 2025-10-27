@@ -1,4 +1,11 @@
 (fp_lib_table
   (version 7)
   (lib (name "RSN0032B")(type "KiCad")(uri "${KIPRJMOD}/ul_BQ25713RSNR/KiCADv6/footprints.pretty")(options "")(descr "BQ25713RSNR"))
+  (lib (name "AO4407A")(type "KiCad")(uri "${KIPRJMOD}/AO4407A")(options "")(descr ""))
+  (lib (name "SI4178DY-T1-GE3")(type "KiCad")(uri "${KIPRJMOD}/SI4178DY-T1-GE3/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "MBRS130T3G")(type "KiCad")(uri "${KIPRJMOD}/LIB_MBRS130T3G/MBRS130T3G/KiCad")(options "")(descr ""))
+  (lib (name "BQ7791500PWR")(type "KiCad")(uri "${KIPRJMOD}/BQ77915/ul_BQ7791500PWR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "GSB1C41110SSHR")(type "KiCad")(uri "${KIPRJMOD}/GSB1C41110SSHR/GSB1C41110SSHR")(options "")(descr ""))
+  (lib (name "S4B_XH_SM4_TB")(type "KiCad")(uri "${KIPRJMOD}/JST-XH-4P/S4B_XH_SM4_TB")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/DMC2700UDM_7/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

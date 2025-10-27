@@ -4,7 +4,799 @@
 	(generator_version "9.0")
 	(uuid "08ba22de-4b28-4016-9030-a6870e7b2c25")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 165.1 50.8) (xy 177.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1deded-be88-450d-b3a8-ad7c23c0f440")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b354f2-ac89-485b-a44b-452acadb7c29")
+	)
+	(wire
+		(pts
+			(xy 241.3 152.4) (xy 254 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274d0753-0160-49b8-985b-82304434a2ed")
+	)
+	(wire
+		(pts
+			(xy 165.1 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278dfc53-1c42-4d91-925b-1b278678dabf")
+	)
+	(wire
+		(pts
+			(xy 165.1 116.84) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27fe7fab-a981-434d-98c0-1ee681c99135")
+	)
+	(wire
+		(pts
+			(xy 165.1 35.56) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299b2a27-bef7-4375-839f-f0d534fc2fc6")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be33451-9781-4bf0-878b-dcafb748a8b8")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3db396-1ce0-4a4c-939d-cb40353a4522")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78be5048-9374-4ba0-853c-8f2552651c2a")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 177.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b678be1-5ef6-43b3-9502-b8d870f6262f")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9102e362-3897-4808-9489-377d645f7b3d")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97025086-fa08-4949-92ed-dad4b867fcf0")
+	)
+	(wire
+		(pts
+			(xy 241.3 139.7) (xy 254 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d5e897-ea58-4985-bf4b-dee3d53a07c9")
+	)
+	(wire
+		(pts
+			(xy 165.1 40.64) (xy 177.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69d4ae5-c2bc-4d83-b936-a9204f8c7929")
+	)
+	(label "3V3"
+		(at 165.1 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "055f2718-d146-4203-8140-31759fe62fc4")
+	)
+	(label "3V3"
+		(at 165.1 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "598d600c-ed0a-4177-ae98-49f131f57c67")
+	)
+	(label "5V"
+		(at 241.3 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "608dc231-c418-4b23-84d3-51d983757018")
+	)
+	(label "CTRL_3"
+		(at 165.1 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "827a3b58-81b1-460f-8d8b-2a0636346d49")
+	)
+	(label "5V"
+		(at 165.1 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8635e7c9-b1ef-4ffb-aaba-e4de7b00a01f")
+	)
+	(label "CTRL_1"
+		(at 165.1 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "876c3153-f01d-4f1e-9e3c-15d219800c90")
+	)
+	(label "CTRL_2"
+		(at 165.1 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aeffddad-77ea-4a2c-9812-bafe9116fa4f")
+	)
+	(label "3V3"
+		(at 165.1 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c05cf890-0d68-44c2-ae4d-8c26b4df94a9")
+	)
+	(label "5V"
+		(at 165.1 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2cbb660-aa32-48fd-a5fe-1c966e097f2d")
+	)
+	(label "5V"
+		(at 165.1 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d378cf61-0872-4f35-9124-39e2161b67d2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 254 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1489be3e-38e4-4634-a59f-5bf0ef3d96ea")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 254 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbba9d69-3d90-45cb-afe4-46e234091c93")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "758ef1b9-c5d0-4950-8cbd-d51f1abea878")
+		(property "Reference" "#PWR023"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feeb8c27-e81a-4294-887f-46c8c4d158d2")
+		)
+		(instances
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88b338d3-2ec3-4ede-a5bd-b7637e1a3766")
+		(property "Reference" "#PWR039"
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e338c425-09e7-4174-9bde-c59b23f92e6c")
+		)
+		(instances
+			(project ""
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e198462-d387-492c-b467-1dd6e0ccfa42")
+		(property "Reference" "#PWR034"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "645f4035-b337-4a31-abc8-4b90c39c09a7")
+		)
+		(instances
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be13c02d-a992-4c72-8a8f-f424c931868f")
+		(property "Reference" "#PWR042"
+			(at 241.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40b848f5-2af4-4189-a9e9-ed67a3bbb462")
+		)
+		(instances
+			(project ""
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 31.75)
+		(size 46.99 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d3e4547-2dd5-4110-83ac-2941c786b78a")
+		(property "Sheetname" "H-Bridge-CH3"
+			(at 177.8 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HighVoltageHBridge.kicad_sch"
+			(at 177.8 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 177.8 35.56 180)
+			(uuid "50a41a8e-cdb1-4e74-a2f8-3d3771b28269")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 177.8 40.64 180)
+			(uuid "bc2629cd-5465-469a-abe1-203b2c9c78cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL" input
+			(at 177.8 45.72 180)
+			(uuid "88044b8c-83b3-4e03-b4ff-03101abb146c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.8 50.8 180)
+			(uuid "c5b4a3f8-d35b-4f19-89a4-22363444635e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 64.77)
+		(size 46.99 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76059e24-e728-4c37-932a-dd1ae6115109")
+		(property "Sheetname" "H-Bridge-CH2"
+			(at 177.8 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HighVoltageHBridge.kicad_sch"
+			(at 177.8 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 177.8 68.58 180)
+			(uuid "65152198-9927-4e94-ae69-10f1083751c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 177.8 73.66 180)
+			(uuid "efd91385-f6b2-43cb-b84a-28e927be83da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL" input
+			(at 177.8 78.74 180)
+			(uuid "cccd047d-4e5e-4027-93c1-b0b148a06a35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.8 83.82 180)
+			(uuid "b4aa598b-afe8-4158-823e-aa5860201a0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 177.8 97.79)
 		(size 46.99 25.4)
@@ -21,7 +813,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a5c11c67-e660-4528-9e0f-9df2c70ff8bf")
-		(property "Sheetname" "H-Bridge"
+		(property "Sheetname" "H-Bridge-CH1"
 			(at 177.8 97.0784 0)
 			(effects
 				(font
@@ -37,6 +829,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 177.8 101.6 180)
+			(uuid "1a780897-6b3d-4997-9b1b-1e4bd75183de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 177.8 106.68 180)
+			(uuid "bcbc29ce-11b1-42da-bd51-a1d315660f76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL" input
+			(at 177.8 111.76 180)
+			(uuid "20508048-648a-4229-b9ae-ce957c2a6236")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.8 116.84 180)
+			(uuid "fb7e8584-1eea-4812-9c3a-50f92bbd64f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

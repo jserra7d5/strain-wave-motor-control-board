@@ -243,350 +243,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Screw_Terminal_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1939,6 +1595,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 121.92) (xy 50.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ad1b81-807f-4795-9377-bba0dda63401")
+	)
+	(wire
+		(pts
 			(xy 180.34 93.98) (xy 180.34 96.52)
 		)
 		(stroke
@@ -1946,6 +1612,16 @@
 			(type default)
 		)
 		(uuid "0d8ce144-500f-41eb-abcf-11dc781392b8")
+	)
+	(wire
+		(pts
+			(xy 220.98 99.06) (xy 220.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137c166d-df0e-4b78-84ed-648b9520fed5")
 	)
 	(wire
 		(pts
@@ -1959,6 +1635,36 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 118.11) (xy 50.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26272673-1c12-49bf-8252-15a658965ae7")
+	)
+	(wire
+		(pts
+			(xy 38.1 125.73) (xy 50.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ce7698-2214-4b97-bbae-c799b3961ea8")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d61c760-88a5-46af-bfb9-1b1e0ac68811")
+	)
+	(wire
+		(pts
 			(xy 187.96 93.98) (xy 180.34 93.98)
 		)
 		(stroke
@@ -1966,16 +1672,6 @@
 			(type default)
 		)
 		(uuid "3e203d27-dbcf-42fb-b2f0-4996526ba87d")
-	)
-	(wire
-		(pts
-			(xy 30.48 95.25) (xy 34.29 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4971fc96-05c6-49f5-b8d2-9bcd5a2302b4")
 	)
 	(wire
 		(pts
@@ -2019,16 +1715,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 80.01) (xy 33.02 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824e23b1-f833-4f2a-81bf-4a8e939d5714")
-	)
-	(wire
-		(pts
 			(xy 210.82 91.44) (xy 210.82 93.98)
 		)
 		(stroke
@@ -2049,13 +1735,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 97.79) (xy 34.29 97.79)
+			(xy 220.98 106.68) (xy 210.82 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dcb0c02-e70e-4210-995d-73e3fe8327d8")
+		(uuid "93220636-c737-4382-9a59-f96d2c620b36")
 	)
 	(wire
 		(pts
@@ -2167,15 +1853,15 @@
 		)
 		(uuid "0274e42b-068c-4ae8-b683-7982963bf893")
 	)
-	(label "5V"
-		(at 30.48 97.79 0)
+	(label "3V3"
+		(at 38.1 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "09ab01e1-f5d5-449c-8937-66c988c9887a")
+		(uuid "32c3c340-6805-43b8-b7f2-181f348efbe5")
 	)
 	(label "5V"
 		(at 116.84 93.98 0)
@@ -2188,14 +1874,24 @@
 		(uuid "39d7323f-9d24-402e-bd75-eea2f7c3fa7b")
 	)
 	(label "5V"
-		(at 26.67 80.01 0)
+		(at 38.1 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "660a8d20-ee62-442e-9f82-c74687297fe1")
+		(uuid "52299840-9e24-4369-b908-9c6a620bd554")
+	)
+	(label "EN"
+		(at 38.1 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dc7eb4b-3d57-42c3-b903-0192ed9921b7")
 	)
 	(label "5V"
 		(at 185.42 81.28 0)
@@ -2237,15 +1933,49 @@
 		)
 		(uuid "c5163513-b662-4bbd-8b70-e741fa3931c0")
 	)
-	(label "EN"
-		(at 30.48 95.25 0)
+	(hierarchical_label "CTRL"
+		(shape input)
+		(at 50.8 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f195f97e-620b-4408-b45f-f45565201548")
+		(uuid "17950006-5f99-44bf-a5dc-c5cb1a21e1c1")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 50.8 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ae2daad-ad25-42be-8402-80be6ed5daf2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 50.8 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7126c30a-2551-4504-b04c-05b1e68ce19c")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 50.8 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa711cf2-dd9f-4858-add3-a231ea0ba0c4")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2257,7 +1987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01dd760b-43f6-44d4-9ec2-83bd43fd0fb3")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR"
 			(at 115.57 110.49 0)
 			(effects
 				(font
@@ -2302,18 +2032,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "b021a1e0-b3b0-4069-b877-71dddb78cc72")
+			(uuid "03dcf32a-dc99-4756-9ee8-08401626728a")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "#PWR017")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "#PWR037")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "#PWR017")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2328,7 +2056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14697f65-73e4-4c91-9000-f0501c5e72a2")
-		(property "Reference" "U1"
+		(property "Reference" "U"
 			(at 103.886 73.406 0)
 			(effects
 				(font
@@ -2372,179 +2100,31 @@
 			)
 		)
 		(pin "4"
-			(uuid "fb843ffe-b398-4527-96ff-7753a104b857")
+			(uuid "2ebf9855-6c1a-4579-a4bf-d075f5689ff1")
 		)
 		(pin "1"
-			(uuid "11221736-8916-4a41-9c96-e6ef0ee763e7")
+			(uuid "0ee584a9-0a6e-4da2-acd0-4d88cbbf1eb1")
 		)
 		(pin "3"
-			(uuid "c87ef75c-ebab-4c01-af24-823d0e205693")
+			(uuid "77890445-e5ab-4335-99f4-62c56392127c")
 		)
 		(pin "6"
-			(uuid "26e3dd94-0e88-4b73-b647-a147f5c6303a")
+			(uuid "0ec7822d-e527-4327-ac05-50c99bf3ef8c")
 		)
 		(pin "5"
-			(uuid "2d42a3b4-3444-4048-87ab-ac990936f07d")
+			(uuid "b588e131-4a6f-4423-ae2d-5facb49d0638")
 		)
 		(pin "2"
-			(uuid "44aef111-2758-4f7b-9442-97c41d848150")
+			(uuid "f7bcec2c-ffea-47a0-9c15-2ea0675c3250")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "U1")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "U13")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 227.33 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fd21b9b-abaa-4b5e-a19a-be5f0c3ddeb1")
-		(property "Reference" "J4"
-			(at 229.87 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x01"
-			(at 229.87 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 227.33 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d8ab946-7969-4e08-9a84-b5d539321064")
-		)
-		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28d6bbfb-b425-49be-800c-aa24485a60d3")
-		(property "Reference" "#PWR04"
-			(at 27.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d61711d-bb91-413c-8816-ba352129de67")
-		)
-		(instances
-			(project ""
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "#PWR04")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2560,7 +2140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "294e21ac-aa3e-4ca3-8b0d-0b43e8c4a174")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR"
 			(at 104.14 107.95 0)
 			(effects
 				(font
@@ -2605,94 +2185,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "83c971c0-ffdc-43f3-b31e-764a07d51f70")
+			(uuid "dfebfcd0-75dd-4934-8272-7d1faf50b745")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "#PWR031")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "#PWR036")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 38.1 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29d8ef31-8c93-4b7d-97f7-8f487d211d5f")
-		(property "Reference" "J1"
-			(at 40.64 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 40.64 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b018a22-d97a-4de9-a157-1dd5e2ae2ec7")
-		)
-		(pin "1"
-			(uuid "bfdd2ff7-1231-4fb9-a3c3-fb23ead09e57")
-		)
-		(instances
-			(project ""
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "J1")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2707,7 +2209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42477cf5-0b35-45b4-8cc0-252e5e071929")
-		(property "Reference" "R2"
+		(property "Reference" "R"
 			(at 182.372 84.074 0)
 			(effects
 				(font
@@ -2753,21 +2255,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "d00449bc-6b0d-4f42-93f5-d611e8d4a3f3")
+			(uuid "34b1ff5e-5006-4403-93e8-5d977b3410ae")
 		)
 		(pin "1"
-			(uuid "56d3817c-045e-4c4b-987c-eb84ce6b32c5")
+			(uuid "fec9e8e4-519d-4a53-bc23-b26e1422a9ce")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "R2")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "R41")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "R2")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2783,7 +2283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44c75b9f-702d-49eb-b7e3-2cdc1936562d")
-		(property "Reference" "Q1"
+		(property "Reference" "Q"
 			(at 214.63 87.6299 0)
 			(effects
 				(font
@@ -2856,97 +2356,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ec4d353-db64-407f-8e31-efa72e6d1f10")
+			(uuid "033680a1-70e5-4266-95a3-2fd80062bb61")
 		)
 		(pin "2"
-			(uuid "644209fe-02bf-4181-b225-1f9ca39dd131")
+			(uuid "3c5f2cdd-1f67-4336-bb06-fcda6d581c5b")
 		)
 		(pin "3"
-			(uuid "eb525109-50e4-488a-b64b-719e2af95608")
+			(uuid "e9baf7ef-4603-4d4d-9cd0-0ff20e39e823")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "Q1")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "Q11")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 226.06 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f6f2aca-4707-4760-8944-2d43eb91c97e")
-		(property "Reference" "J3"
-			(at 228.6 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x01"
-			(at 228.6 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 226.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4464b298-f59f-41b0-acf9-549da3507c23")
-		)
-		(instances
-			(project ""
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "J3")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2962,7 +2387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76fe59dc-fd0a-4dcb-a240-4f7dd60ebfd8")
-		(property "Reference" "U3"
+		(property "Reference" "U"
 			(at 195.58 85.09 0)
 			(effects
 				(font
@@ -3010,27 +2435,25 @@
 			)
 		)
 		(pin "4"
-			(uuid "a3863ab5-f2a4-4fe2-935e-1696bd878de5")
+			(uuid "dedcced5-a1b5-48a6-b1d1-180a2742b161")
 		)
 		(pin "3"
-			(uuid "677b1b21-ce9a-43f6-a422-22773a2c0ac8")
+			(uuid "de8d513f-04e5-45c6-8691-35e1165ae270")
 		)
 		(pin "2"
-			(uuid "41d88888-670a-4d5f-8a8f-da0a4e54642e")
+			(uuid "64386a2f-5645-4a9c-ae74-fd911791f842")
 		)
 		(pin "1"
-			(uuid "e69be02b-16e1-4491-8bb9-eac95cfad0fb")
+			(uuid "47019bd1-7d09-4a86-b72e-e4553db97f1f")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "U3")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "U15")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "U3")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3045,7 +2468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84313d0f-2f54-4712-84d6-0d2b0bd24c55")
-		(property "Reference" "R3"
+		(property "Reference" "R"
 			(at 182.372 96.774 0)
 			(effects
 				(font
@@ -3091,21 +2514,89 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa92bb15-4a44-40ee-8d7d-dd4705e56658")
+			(uuid "b910a2fa-c722-40f0-a9d7-333c68341514")
 		)
 		(pin "1"
-			(uuid "c6830a30-43aa-4d25-b2e3-75f3a5dfc96f")
+			(uuid "bc95aa96-e133-4856-9c0f-5873d07e8a8a")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "R3")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "R36")
 					(unit 1)
 				)
 			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "R3")
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb94fb3-1e36-47b6-8ef3-a60fccce82f0")
+		(property "Reference" "#PWR"
+			(at 38.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4af0537d-1b72-411b-b10c-ca2c57658d61")
+		)
+		(instances
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3121,7 +2612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d936a13-8ee0-4750-bffc-ea240e04dbd6")
-		(property "Reference" "R1"
+		(property "Reference" "R"
 			(at 118.11 99.0599 0)
 			(effects
 				(font
@@ -3167,21 +2658,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "22de89ca-4443-415b-8e4e-a6ae07594e30")
+			(uuid "0f883750-b56e-4711-9966-725b8a446686")
 		)
 		(pin "1"
-			(uuid "c0128f11-f8d8-4f5d-986f-7b3b865b8e9d")
+			(uuid "882b07d9-36f3-486d-833f-501317c6962c")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "R1")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "R40")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "R1")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -3197,7 +2686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c118d8d4-8edc-423a-b6f8-ddf639accf7f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR"
 			(at 210.82 113.03 0)
 			(effects
 				(font
@@ -3242,35 +2731,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "8480b0cb-a4b1-40b7-99d4-3fd4a348e702")
+			(uuid "619fb1cf-866a-457c-ae26-1ab5bc7acd2b")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "#PWR020")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "#PWR041")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "#PWR020")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 39.37 97.79 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 226.06 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c541f8a3-4fc2-46c7-907c-e7e4c0e9e637")
-		(property "Reference" "J2"
-			(at 40.64 96.5199 0)
+		(uuid "c8982d47-e781-44dd-bdf9-5ce9694474b1")
+		(property "Reference" "J5"
+			(at 228.6 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,8 +2765,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 40.64 99.0599 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 228.6 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,8 +2774,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 39.37 97.79 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 226.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +2784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 97.79 0)
+			(at 226.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,107 +2792,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 39.37 97.79 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 226.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "73fbf220-45c6-4171-a602-a5bada8e79f2")
-		)
-		(pin "3"
-			(uuid "b25d74cf-89ab-4350-9362-3a324c8a2810")
 		)
 		(pin "2"
-			(uuid "4cd6d168-10ee-471b-8438-0fbf69442f84")
-		)
-		(instances
-			(project ""
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca859a8c-c4f2-449f-900e-255a5ae82bb7")
-		(property "Reference" "#PWR06"
-			(at 215.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 137.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "6403415b-dcde-437e-872f-564c3862b29a")
 		)
 		(pin "1"
-			(uuid "e8a91412-e003-4247-9d25-a6e9ea538554")
+			(uuid "ec822940-2ee1-4d2b-898e-282341090069")
 		)
 		(instances
-			(project ""
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "#PWR06")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "J4")
 					(unit 1)
 				)
-			)
-			(project ""
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "#PWR06")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "J3")
+					(unit 1)
+				)
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3420,7 +2833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9c12b0e-57ec-4eae-a34a-0d9b7ce738c1")
-		(property "Reference" "U4"
+		(property "Reference" "U"
 			(at 195.326 98.298 0)
 			(effects
 				(font
@@ -3468,27 +2881,25 @@
 			)
 		)
 		(pin "4"
-			(uuid "03956868-318f-429b-81c8-783edae6cea8")
+			(uuid "ae525e48-34a8-4177-b8bd-8dc34aa73534")
 		)
 		(pin "3"
-			(uuid "2be7f2e8-bf23-4a96-a3c7-f16f87571baa")
+			(uuid "86434d77-73d5-4bff-ad79-9f12138670c5")
 		)
 		(pin "2"
-			(uuid "e9e4cdaf-77d6-440a-abf2-41ac29cf11a0")
+			(uuid "3e47605c-a098-4bea-8503-3bedd9a3984f")
 		)
 		(pin "1"
-			(uuid "d16ac7a6-2e4a-4a18-8bb4-b6e50bd73ba4")
+			(uuid "bf0c4a2a-5b8c-4d8d-86a8-eb95e4beacbd")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "U4")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "U16")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "U4")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3504,7 +2915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd05855-288a-4b5f-834b-0e08c01dc0d0")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR"
 			(at 176.53 93.98 0)
 			(effects
 				(font
@@ -3550,90 +2961,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "df02660b-0949-4fae-9603-5c3f5492b538")
+			(uuid "510b6c67-c339-41e3-adba-f26a33741662")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "#PWR018")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "#PWR038")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea140520-3ffc-4ab7-b58d-5c54bd1900c9")
-		(property "Reference" "#PWR03"
-			(at 33.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7444709b-d78a-4a0b-8ab7-1f62f2e71949")
-		)
-		(instances
-			(project ""
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "#PWR03")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3649,7 +2986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0427fe1-9eb6-4d64-b34b-45289305aaf7")
-		(property "Reference" "U2"
+		(property "Reference" "U"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -3665,7 +3002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DMC2700UDM:SOT26_DIO"
+		(property "Footprint" "footprints:SOT26_DIO"
 			(at 119.38 91.44 0)
 			(effects
 				(font
@@ -3695,33 +3032,31 @@
 			)
 		)
 		(pin "6"
-			(uuid "5ae51498-a959-4f72-a295-a3782e901d6f")
+			(uuid "11ff196f-7f74-40fa-befb-46c7267da348")
 		)
 		(pin "4"
-			(uuid "5a015a51-0a1a-4e8c-a911-f5430c82c187")
+			(uuid "4e1a6d44-65fc-4e10-8c6e-cb78e8a60a05")
 		)
 		(pin "1"
-			(uuid "c580c413-d38c-41b2-a270-70969f6e34a6")
+			(uuid "33446b95-4afc-4b77-b57e-66aed86d2d85")
 		)
 		(pin "2"
-			(uuid "c6e2a6f8-d6f5-499f-b220-6b3ed5a243ff")
+			(uuid "590eb9fc-186d-415c-a5d8-1336264e430f")
 		)
 		(pin "5"
-			(uuid "a83d7b71-88d2-4f2f-a171-7e4ad65b247d")
+			(uuid "82ee3844-bf35-4326-9a8e-4a514f9f00df")
 		)
 		(pin "3"
-			(uuid "8311bb99-63b3-40aa-a65b-28499fafece5")
+			(uuid "db2dc95b-d925-448d-887c-63c53c31aba6")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "U2")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "U14")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "U2")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3737,7 +3072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f70142ef-c8d6-4572-b564-1eba73a3a693")
-		(property "Reference" "Q2"
+		(property "Reference" "Q"
 			(at 214.63 100.3299 0)
 			(effects
 				(font
@@ -3810,24 +3145,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "6594f889-e572-4748-9def-f2395beccc0e")
+			(uuid "f00378d8-1db9-4f50-a79e-758582277f78")
 		)
 		(pin "2"
-			(uuid "7aa794ba-a374-4f46-872e-f71947315d8a")
+			(uuid "ae14cc71-e19c-44d1-bc75-030bf032245b")
 		)
 		(pin "3"
-			(uuid "8ef9ff84-a7d7-4419-8659-163a8d744394")
+			(uuid "8baf390b-68cb-44ef-adfe-6facc4d4c853")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "Q2")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "Q12")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "Q2")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -3843,7 +3176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f91f00dd-6d38-4c75-8f90-3de87485da0d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR"
 			(at 187.96 113.03 0)
 			(effects
 				(font
@@ -3888,18 +3221,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "81b929d9-cd5a-40f1-ace1-4761160205f8")
+			(uuid "5667121e-a25f-4613-a7a8-aab4d1e3c9c8")
 		)
 		(instances
-			(project "HighVoltageHBridge"
-				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/a5c11c67-e660-4528-9e0f-9df2c70ff8bf"
-					(reference "#PWR019")
+			(project "Strain Wave Motor Control Board"
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/3d3e4547-2dd5-4110-83ac-2941c786b78a"
+					(reference "#PWR040")
 					(unit 1)
 				)
-			)
-			(project "HighVoltageHBridge"
-				(path "/d1a15e02-2d15-4ed8-b52a-872353cc55f4"
-					(reference "#PWR019")
+				(path "/6a10ea30-147f-4e88-a5c3-bf0fd41178aa/9ffa4e09-e84e-481d-9a76-0a18653cd84d/76059e24-e728-4c37-932a-dd1ae6115109"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

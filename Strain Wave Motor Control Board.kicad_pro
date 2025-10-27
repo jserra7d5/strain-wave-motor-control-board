@@ -440,6 +440,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -623,7 +624,15 @@
     ],
     [
       "a5c11c67-e660-4528-9e0f-9df2c70ff8bf",
-      "H-Bridge"
+      "H-Bridge-CH1"
+    ],
+    [
+      "76059e24-e728-4c37-932a-dd1ae6115109",
+      "H-Bridge-CH2"
+    ],
+    [
+      "3d3e4547-2dd5-4110-83ac-2941c786b78a",
+      "H-Bridge-CH3"
     ]
   ],
   "text_variables": {}
