@@ -14,4 +14,7 @@
   (lib (name "Battery_Connector")(type "KiCad")(uri "${KIPRJMOD}/Battery_Connector.kicad_sym")(options "")(descr ""))
   (lib (name "1655")(type "KiCad")(uri "${KIPRJMOD}/1655/1655/1655.kicad_sym")(options "")(descr ""))
   (lib (name "Switch_SWM")(type "KiCad")(uri "${KIPRJMOD}/Switches/100SP1T1B4M2QE.kicad_sym")(options "")(descr ""))
+  (lib (name "NR6045T100M")(type "KiCad")(uri "${KIPRJMOD}/NR6045T100M/NR6045T100M.kicad_sym")(options "")(descr ""))
+  (lib (name "SRN8040-330M")(type "KiCad")(uri "${KIPRJMOD}/SRN8040-330M/KiCADv6/2025-11-03_05-04-55.kicad_sym")(options "")(descr ""))
+  (lib (name "680")(type "KiCad")(uri "${KIPRJMOD}/680/UCL1E681MNL1GS.kicad_sym")(options "")(descr ""))
 )

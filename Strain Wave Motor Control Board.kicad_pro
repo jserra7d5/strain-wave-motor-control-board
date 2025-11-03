@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|111980000|142070000|7baa6757-319f-47c4-9a41-4c21643e756d|59eb91d5-e5cc-4e78-8b2c-ce16e36882db",
+          ""
+        ],
+        [
+          "hole_clearance|112180000|142070000|7baa6757-319f-47c4-9a41-4c21643e756d|51470b8d-903a-4d24-ae7e-587a58c58a47",
+          ""
+        ],
+        [
+          "hole_clearance|117580000|142070000|768246bb-4d2b-4f77-94a6-7ed19c01cfab|b9639e5a-6471-49f4-9495-a897f65dda59",
+          ""
+        ],
+        [
+          "hole_clearance|117780000|142070000|768246bb-4d2b-4f77-94a6-7ed19c01cfab|2893a14b-7797-4bcd-88fa-5dd31f588cb2",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -189,6 +206,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -611,7 +629,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,

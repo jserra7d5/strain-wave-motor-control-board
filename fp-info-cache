@@ -1,4 +1,4 @@
-26259456154867282
+26262980505250115
 1655
 LED_1655
 
@@ -71742,6 +71742,13 @@ threaded screw
 0
 4
 1
+NR6045T100M
+IND_NR6045T100M
+
+
+0
+2
+2
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -95409,6 +95416,13 @@ SI4178DY-T1-GE3
 0
 8
 8
+SRN8040
+IND_BOURNS_SRN8040
+
+SRN8040-330M 
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

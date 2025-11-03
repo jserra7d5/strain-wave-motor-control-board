@@ -2093,6 +2093,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 58.42) (xy 90.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b921036f-9a73-4eed-bbb0-b665d9246fb0")
+	)
+	(wire
+		(pts
 			(xy 109.22 39.37) (xy 114.3 39.37)
 		)
 		(stroke
@@ -2170,6 +2180,16 @@
 			(type default)
 		)
 		(uuid "f224b492-205f-4f5f-981c-2258040bf0f6")
+	)
+	(wire
+		(pts
+			(xy 90.17 104.14) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb179eb-e0a7-4f92-8f95-e6125384802e")
 	)
 	(wire
 		(pts
@@ -2351,7 +2371,7 @@
 		)
 		(uuid "82f4d338-4c07-4bda-b59e-a9dad33c78cd")
 	)
-	(label "CRTL_3"
+	(label "CTRL_3"
 		(at 165.1 40.64 0)
 		(effects
 			(font
@@ -3265,6 +3285,16 @@
 		(pin "~LOBAT" output
 			(at 96.52 58.42 270)
 			(uuid "3f510429-dfa7-4a0f-b84a-203f4e83511a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NEOPIXEL" input
+			(at 90.17 58.42 270)
+			(uuid "833e4c06-b0fa-4d7c-a73c-223eb8005cf2")
 			(effects
 				(font
 					(size 1.27 1.27)
